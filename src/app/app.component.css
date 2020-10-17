@@ -1,0 +1,102 @@
+.header{
+    color: #cd1543;
+    text-align: center;
+}
+.column {
+    float: auto;
+    width: auto;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    
+
+  }
+
+  body {
+    border: none;
+    overflow: hidden;
+    background-color: #001844;
+    height: auto;
+  }
+  
+  /*
+  
+  Content 1
+  
+  */
+  
+  .mission {
+    margin: 60px 20px 50px 50px;
+  }
+  
+  .mission h1 {
+    color: #cd1543;
+  }
+  
+  .mission h2 {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .underline {
+    height: 3px;
+   width: 100%;
+    background-color: #cd1543;
+    margin: 0 0 20px 0;
+  }
+  
+  .mission-text {
+    margin: 0 20px 0 0;
+    padding: 50px 50px 50px 50px;
+    background-color: #001844;
+    font-size: 18px;
+    color: whitesmoke;
+  }
+  
+  .image img {
+    height: 450px;
+   width: auto;
+  }
+  
+  /*
+  
+  Content 2
+  
+  */
+  .card-deck {
+    margin: 0 150px 60px 150px;
+  }
+  
+  .card-img-top {
+    height: 350px;
+    object-fit: cover;
+  }
+  
+  .card {
+text-align: center;
+    border: none;
+    border-radius: 0;
+    
+  }
+  
+
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 25px;
+    color : whitesmoke;
+  }
+  
+  .card-text {
+    font-size: 17px;
+color: whitesmoke;
+
+
+  }
+  
